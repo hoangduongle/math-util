@@ -32,7 +32,7 @@ public class MathUtility {
             return 1; //0! = 1! = 1;
         }
         //n từ 2 -> 20
-        long result = 0; //hết cố tình
+        long result = 1; //hết cố tình
         for (int i = 2; i <= n; i++) {
             result = result * i;
 
