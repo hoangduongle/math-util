@@ -23,6 +23,24 @@ public class MathUtility {
         vì giai thừa tăng cực nhanh về giá trị, 21 tràn kiểu long 
         ta sẽ khống chế n đầu vào của hàm từ 0..20
         kiểu long: 10^18, 18 con số 0 tối đa */
+    
+//    public static long getFactorial(int n) {
+//        if (n < 0 || n > 20) {
+//            throw new IllegalArgumentException("Ivalid argument. "
+//                    + "n must between 0..20");
+//        }
+//        if (n == 0 || n == 1) {
+//            return 1; //0! = 1! = 1;
+//        }
+//        //n từ 2 -> 20
+//        long result = 1; //hết cố tình
+//        for (int i = 2; i <= n; i++) {
+//            result = result * i;
+//
+//        }
+//        return result;
+//    }
+    
     public static long getFactorial(int n) {
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Ivalid argument. "
@@ -31,12 +49,8 @@ public class MathUtility {
         if (n == 0 || n == 1) {
             return 1; //0! = 1! = 1;
         }
-        //n từ 2 -> 20
-        long result = 1; //hết cố tình
-        for (int i = 2; i <= n; i++) {
-            result = result * i;
-
-        }
-        return result;
+        /*mình thừa biết n! = n * (n-1)!*/
+        return n * getFactorial(n - 1);
     }
+
 }

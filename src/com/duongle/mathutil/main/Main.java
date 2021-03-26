@@ -21,7 +21,7 @@ public class Main {
         //tui muốn test 5! có bằng 120 hay không
         int n = 5; //5! coi bằng mấy
         long expected = 120; // tui kì vọng, hy vọng bạn tính ra 120
-        long actual = 0;
+        long actual = MathUtility.getFactorial(n);
         System.out.println("5! expected: " + expected + "; actual " + actual);
         
         //xét trường hợp thứ 2 0!= mấy;
