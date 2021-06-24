@@ -1,6 +1,7 @@
 ## Welcome to Math Utility repsository. This repo offers various math methods those used as a helper for your project.
 
 [![MathUtil project | CI process included | © 2021 by duong.le](https://github.com/hoangduongle/math-util/actions/workflows/mathutil-ci-action.yml/badge.svg)](https://github.com/hoangduongle/math-util/actions/workflows/mathutil-ci-action.yml)
+
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=hoangduongle_math-util)](https://sonarcloud.io/dashboard?id=hoangduongle_math-util)
 
 ### *_You will find in this repo the following stuff:_*
